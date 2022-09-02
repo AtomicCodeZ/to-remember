@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
       </div>
 
       <div className="link-group">
-        <div className="navigation">
+        <nav className="navigation">
           <a href="/" className="navigation__link">
             Início
           </a>
@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           <a href="/novos-episodios" className="navigation__link">
             Novos Episódios
           </a>
-        </div>
+        </nav>
 
         <div className="search">
           <input type="search" placeholder="Buscar" className="search__input" />
