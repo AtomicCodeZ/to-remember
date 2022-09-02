@@ -53,6 +53,7 @@ export const Container = styled.header`
         padding: 0.5rem 1.5rem;
 
         background: var(--dark-200);
+        color: var(--white);
 
         border: 0;
         border-radius: 30px;
@@ -63,7 +64,7 @@ export const Container = styled.header`
         transition: outline 0.05s linear;
 
         &::placeholder {
-          color: var(--white);
+          color: var(--grey);
         }
 
         &:focus {
