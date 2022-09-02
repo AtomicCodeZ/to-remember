@@ -10,16 +10,16 @@ export const Header: React.FC = () => {
       </div>
 
       <div className="navigation">
-        <a href="/" className="navigation_link">
+        <a href="/" className="navigation__link">
           Início
         </a>
-        <a href="/lista" className="navigation_link">
+        <a href="/lista" className="navigation__link">
           Lista
         </a>
-        <a href="/generos" className="navigation_link">
+        <a href="/generos" className="navigation__link">
           Gêneros
         </a>
-        <a href="/novos-episodios" className="navigation_link">
+        <a href="/novos-episodios" className="navigation__link">
           Novos Episódios
         </a>
       </div>
