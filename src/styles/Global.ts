@@ -8,11 +8,11 @@ export default createGlobalStyle`
 }
 
 :root {
-  --blue: #DA2535;
-  --dark-200: #515151;
-  --white: #F9F9F9;
-  --dark: #0B1421;
-  --grey: #F9F9F9;
+  --blue: #00A3FF;
+  --dark-200: #151B26;
+  --white: #FFFFFF;
+  --dark: #06090F;
+  --grey: #BFBFBF;
 }
 
 @media (max-width: 1080px) {
